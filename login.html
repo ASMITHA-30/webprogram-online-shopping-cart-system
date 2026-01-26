@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Shopping Cart</title>
+</head>
+
+<body bgcolor="#F4F6F7">
+
+<!-- LOGIN PAGE -->
+<center>
+    <h2>Online Shopping Login</h2>
+
+    <form action="home.html" method="get">
+        <fieldset style="width:420px">
+            <legend>Login</legend>
+
+            <table cellpadding="8">
+                <tr>
+                    <td>Name <font color="red">*</font></td>
+                    <td>
+                        <input type="text" name="name" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Date of Birth <font color="red">*</font></td>
+                    <td>
+                        <input type="date" name="dob" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" name="gender" value="Male"> Male
+                        <input type="radio" name="gender" value="Female"> Female
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Email ID <font color="red">*</font></td>
+                    <td>
+                        <input type="email" name="email" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Password</td>
+                    <td>
+                        <input type="password" name="password"
+                               placeholder="Minimum 6 characters"
+                               pattern=".{6,}">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Login">
+                        <input type="reset" value="Clear">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</center>
+
+<br>
+
+
+</body>
+</html>
